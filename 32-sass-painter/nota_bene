@@ -1,0 +1,6 @@
+GOAL: Ricreare la landing con l'utilizzo di SASS, utilizzando tutte le best practice imparate.
+    https://www.painterartist.com/en/product/painter-essentials/
+NOTE: ricordare di aggiungere il file .gitignore o di escludere manualmente la cartella node_modules dal git
+
+NB: se incontrare problemi con i link per i background (in particolare quelli dei CSS/SASS) va aggiunta la seguente riga nel webpack
+.options({ processCssUrls: false })

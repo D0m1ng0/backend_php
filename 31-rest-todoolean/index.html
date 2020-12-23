@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JS - API</title>
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- /fontawesome -->
+
+    <!-- handlebars -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
+    <!-- /handlebars -->
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- /jQuery -->
+
+    <script id="todos-template" type="text/x-handlebars-template">
+      <li data-id="{{todosId}}">
+        {{todosText}}
+        <span data-id="{{todosId}}" class="deleteX">X</span>
+      </li>
+    </script>
+
+    <script src="script.js" type="text/javascript">
+    </script>
+
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Todos</h1>
+      <div class="todos-container">
+        <ul id="todos">
+        </ul>
+
+        <input id="newTodo" type="text" name="" value="">
+        <button id="sendTodo" type="button" name="button">ADD NEW
+    </div>
+
+  </body>
+</html>
